@@ -7,7 +7,7 @@ public class Ex02_IfElse2 {
 	public static void main(String[] args) {
 		
 	
-		System.out.print("Enter How products you need >> ");
+		System.out.print("Enter How many products you need >> ");
 		Scanner sc3= new Scanner(System.in);
 		int count = sc3.nextInt();
 		
@@ -17,7 +17,7 @@ public class Ex02_IfElse2 {
 			System.out.println("Total " + (count*10000) + " won");
 		}
 		
-		System.out.print("Enter How products you need >> ");
+		System.out.print("Enter How many products you need >> ");
 		Scanner sc4= new Scanner(System.in);
 		int count1 = sc4.nextInt();
 		

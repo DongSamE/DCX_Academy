@@ -2,7 +2,7 @@ package Conditional;
 
 import java.util.Scanner;
 
-public class Ex_HomeWOrk {
+public class Ex_HomeWork {
 	
 	public static void main(String[] args) {
 		//Q1 Calculate Birthyear With Age
@@ -56,7 +56,7 @@ public class Ex_HomeWOrk {
 		int Number = scNumber.nextInt();
 		
 		
-		if(Slice/Number==0) {
+		if(Slice%Number!=0) {
 			System.out.println("Need " + ((Number/Slice)+1) +" Pizza");
 		} else {
 			System.out.println("Need " + (Number/Slice) +" Pizza");
