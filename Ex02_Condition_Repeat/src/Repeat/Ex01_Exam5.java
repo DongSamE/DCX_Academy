@@ -15,7 +15,6 @@ public class Ex01_Exam5 {
 		int total ;
 		int answer ;
 		String YesNo ;
-		String Yes = "Y";
 		
 		
 		//
@@ -35,8 +34,15 @@ public class Ex01_Exam5 {
 				System.out.println("Fail");
 				System.out.print("Will You Try Again? >> ");
 				YesNo = scString.next();
+				
+				while(!YesNo.equals("Y") && !YesNo.equals("N")) {
+					System.out.println("Input ONLY Y or N");
+					System.out.print("Will You Try Again? >> ");
+					YesNo = scString.next();
+				}
+				
 			}
-		}while(YesNo.equals(Yes));
+		}while(YesNo.equals("Y"));
 		
 		System.out.print("F I N I S H E D");
 			

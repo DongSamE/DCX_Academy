@@ -2,7 +2,7 @@ package Repeat;
 
 import java.util.Scanner;
 
-public class Ex01_intro {
+public class Ex01_Intro {
 	public static void main(String[] args) {
 		
 		
