@@ -2,7 +2,7 @@ package Ex02_ClassObject;
 
 import java.util.Scanner;
 
-public class Ex02_BankExam {
+public class Ex02_Bankexam {
 	public static void main(String[] args) {
 		
 		Ex02_Bank Dong = new Ex02_Bank();
